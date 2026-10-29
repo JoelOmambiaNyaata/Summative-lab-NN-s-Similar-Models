@@ -7,10 +7,10 @@ This repository contains the complete implementation for the **Summative Lab: NN
 ## Project Structure & Architecture
 
 The system integrates three core AI components:
-1. **CNN Image Classifier (Part 2)**: Utilizes transfer learning via **MobileNetV2** to classify uploaded images of waste items into 8 specific categories (paper, cardboard, biological, metal, plastic, glass types).
-2. **Text Classification Pipeline (Part 3)**: Implements text preprocessing and a robust machine learning classifier (Random Forest with TF-IDF features) to categorize textual descriptions of waste.
-3. **RAG Retrieval Engine (Part 4)**: Implements a Retrieval-Augmented Generation (RAG) system using cosine similarity over vectorized municipal policy documents to source accurate disposal regulations.
-4. **Integrated Assistant (Part 5)**: A unified wrapper function (`waste_management_assistant`) that routes either image or text inputs through the respective classification pipelines and returns structured recycling guidelines.
+1. **CNN Image Classifier**: Utilizes transfer learning via **MobileNetV2** to classify uploaded images of waste items into 8 specific categories (paper, cardboard, biological, metal, plastic, glass types).
+2. **Text Classification Pipeline**: Implements text preprocessing and a robust machine learning classifier (Random Forest with TF-IDF features) to categorize textual descriptions of waste.
+3. **RAG Retrieval Engine**: Implements a Retrieval-Augmented Generation (RAG) system using cosine similarity over vectorized municipal policy documents to source accurate disposal regulations.
+4. **Integrated Assistant**: A unified wrapper function (`waste_management_assistant`) that routes either image or text inputs through the respective classification pipelines and returns structured recycling guidelines.
 
 ---
 
