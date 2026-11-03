@@ -1,0 +1,24 @@
+# Base Data Science & Visualization
+numpy<2.0.0,>=1.26.0
+pandas
+matplotlib
+seaborn
+scipy
+statsmodels
+python-graphviz
+
+# Machine Learning & Deep Learning Frameworks
+tensorflow==2.10.0
+tensorflow-text==2.10.0
+tensorflow-hub
+torch==2.6.0
+scikit-learn
+
+# NLP & Hugging Face Ecosystem
+transformers==4.49.0
+datasets
+sentence-transformers
+accelerate
+
+# Development Tools
+jupyter
