@@ -5,3 +5,18 @@ waste_policy_documents.json
 
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
+<<<<<<< HEAD
+=======
+
+# Virtual environments
+venv/
+env/
+ENV/
+clean-ai-env/
+
+# python cache and JUpyter checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+>>>>>>> b82d3b8 (In this commit; I have done an update on the reuirements.txt for environment configuration, .gitignore and updated my README.md.)
