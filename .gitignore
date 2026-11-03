@@ -1,3 +1,7 @@
+# DATA FILES
 realwaste-main
 waste_descriptions.csv
 waste_policy_documents.json
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
